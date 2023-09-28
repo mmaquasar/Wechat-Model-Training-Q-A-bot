@@ -1,0 +1,5 @@
+https://railway.app/template/qApznZ?referralCode=RC3znh
+
+一键部署，部署中点开后可以设置自己想用的model以及各种设置
+
+https://github.com/BlueMatthew/WechatExporter项目参考
