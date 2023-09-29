@@ -2,10 +2,10 @@
 
 Description: This project is designed to create a WeChat bot capable of answering questions, with code derived from ChatGPT. This implementation references a project by zhayujie and is deployed on Railway to achieve automatic replies on WeChat through GPT. It is currently ongoing with updates being made periodically.
 
-
+<br><br>
 Data fine-tuning for this project utilizes 40,380 WeChat group chat records and has set roles such as group admin and student representative as “assistance” during fine-tuning.
 Implementation Steps:
-
+<br><br>
 
 Export Chat History
         Use WechatExporter to export chat histories as txt files.
