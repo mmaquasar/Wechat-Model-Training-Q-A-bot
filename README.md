@@ -1,17 +1,16 @@
 # Wechat-Model-Training-Q-A-bot
-
+<br><br>
 Description: This project is designed to create a WeChat bot capable of answering questions, with code derived from ChatGPT. This implementation references a project by zhayujie and is deployed on Railway to achieve automatic replies on WeChat through GPT. It is currently ongoing with updates being made periodically.
 
 <br><br>
 Data fine-tuning for this project utilizes 40,380 WeChat group chat records and has set roles such as group admin and student representative as “assistance” during fine-tuning.
 Implementation Steps:
-<br><br>
 
 Export Chat History
         Use WechatExporter to export chat histories as txt files.
         Utilize the script import json(step2).py to convert txt to json for export. This script not only helps in exporting but also uploads to the API cloud database directly, providing a file ID needed for subsequent steps.
         
-
+<br><br>
 Fine-tuning Process
         Run the script fine tune(step4).
         Input your API credentials and the obtained file ID.
